@@ -26,3 +26,5 @@ web/.htaccess
 
 # WP-CLI
 wp-cli.local.yml
+
+# Dummy content
