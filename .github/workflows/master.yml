@@ -17,4 +17,4 @@ jobs:
         server: ftp.e-shop.com.ar
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: public_html/
+        server-dir: public_master/
