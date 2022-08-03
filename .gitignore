@@ -1,0 +1,14 @@
+app/sql/local.sql
+logs/nginx/error.log
+logs/php/error.log
+conf/mysql/my.cnf.hbs
+conf/nginx/nginx.conf.hbs
+conf/nginx/site.conf.hbs
+conf/nginx/includes/gzip.conf.hbs
+conf/nginx/includes/mime-types.conf.hbs
+conf/nginx/includes/restrictions.conf.hbs
+conf/nginx/includes/wordpress-multi.conf.hbs
+conf/nginx/includes/wordpress-single.conf.hbs
+conf/php/php-fpm.conf.hbs
+conf/php/php.ini.hbs
+conf/php/php-fpm.d/www.conf.hbs
