@@ -1,0 +1,373 @@
+# Translation of YITH Dynamic Pricing per Payment Method for WooCommerce in Spanish (Spain)
+# This file is distributed under the same license as the YITH Dynamic Pricing per Payment Method for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Dynamic Pricing per Payment Method for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-dynamic-"
+"pricing-per-payment-method-for\n"
+"POT-Creation-Date: 2021-03-08 11:58:17+00:00\n"
+"PO-Revision-Date: 2022-08-24 16:09+0000\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-admin.php:118
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-admin.php:123
+msgid "Premium Version"
+msgstr "Versión premian"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-admin.php:164
+msgid "Plugin documentation"
+msgstr "Documentación del plugin"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-admin.php:168
+msgid "Help Center"
+msgstr "Centro de ayuda"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-admin.php:172
+msgid "Support platform"
+msgstr "Plataforma de soporte"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-frontend-premium.php:204
+#: includes/class.yith-wcdppm-dynamic-payment-methods-frontend.php:178
+#: includes/class.yith-wcdppm-post-types.php:111
+msgid "Payment method"
+msgstr "Método de pago"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-frontend-premium.php:235
+msgid "Payment Method Fee"
+msgstr "Cuota de método de pago"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-frontend-premium.php:237
+msgid "Payment Method Discount"
+msgstr "Descuento de método"
+
+#. translators: %s: country name
+#: includes/class.yith-wcdppm-dynamic-payment-methods-frontend.php:204
+msgid "estimated for %s"
+msgstr "estimado para %s"
+
+#. translators: %s: tax information
+#: includes/class.yith-wcdppm-dynamic-payment-methods-frontend.php:206
+msgid " (includes %s)"
+msgstr "(incluye %s)"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-frontend.php:253
+msgid "Payment Method Discount:"
+msgstr "Descuento de método de pago:"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:141
+msgid "Decrease by percentage"
+msgstr "Disminuir por porcentaje"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:142
+msgid "Increase by value"
+msgstr "Incrementar por valor"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:143
+msgid "Increase by percentage"
+msgstr "Incrementar por porcentaje"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:377
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:386
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:33
+msgid "Custom text"
+msgstr "Texto personalizado"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:391
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:34
+msgid "User role"
+msgstr "Rol de usuario"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:399
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:35
+msgid "Include tax"
+msgstr "Incluir impuesto"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:404
+msgid "Min cart total"
+msgstr "Min total del carrito"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:409
+msgid "Max cart total"
+msgstr "Máx total del carrito"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:414
+msgid "Product in cart"
+msgstr "Producto en el carrito"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:415
+msgid "Apply the rule if the products are in the cart"
+msgstr "Aplicar la regla si los productos están en el carrito"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:419
+msgid "Schedule FROM"
+msgstr "Programar DESDE"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:424
+msgid "Schedule TO"
+msgstr "Programar HASTA"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:430
+msgid "Tax rule"
+msgstr "Regla de impuesto"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:431
+msgid ""
+"% ( Insert a percentage value that will be applied basing on the amount rule."
+" Leave blank to apply the tax class to the rule )"
+msgstr ""
+"% ( Inserta un valor de porcentaje que será aplicado basándose en la "
+"cantidad de la regla. Déjalo en blanco para aplicar la clase de impuesto a "
+"la regla )"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:436
+msgid "Tax class"
+msgstr "Clase de impuesto"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:437
+msgid ""
+"Select the tax class that will be applied on the amount rule. This tax is "
+"applied if \"Tax rule\" field is empty "
+msgstr ""
+"Selecciona la clase de impuesto que será aplicado en la cantidad de la regla."
+" Este impuesto es aplicado si el campo ‘’Regla de impuesto’’ está vacío "
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:443
+msgid "Amount include tax?"
+msgstr "¿La cantidad incluye impuesto?"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:444
+msgid "Check this option if the amount include tax"
+msgstr "Marca esta opción si la cantidad incluye impuesto"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:466
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions-premium.php:467
+msgid "Standard rate"
+msgstr "Tasa estándar"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions.php:81
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:71
+msgid "Decrease by value"
+msgstr "Disminuir por valor"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-functions.php:98
+msgid "Guest"
+msgstr "Usuario no registrado"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:36
+msgid "Min cart"
+msgstr "Min. en el carrito"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:37
+msgid "Max cart"
+msgstr "Máx. en el carrito"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:38
+msgid "Date: From"
+msgstr "Fecha: desde"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:39
+msgid "Date: To"
+msgstr "Fecha: hasta"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table-premium.php:96
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:59
+msgid "All"
+msgstr "Todo"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:29
+msgid "Payment-method-based price rule"
+msgstr "Regla de precio basada en el método de pago"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:30
+msgid "Payment-method-based price rules"
+msgstr "Reglas de precio basadas en el método de pago"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:42
+msgid "Payment Method"
+msgstr "Método de pago"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:43
+msgid "Title"
+msgstr "Título"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:44
+#: includes/class.yith-wcdppm-post-types.php:117
+msgid "Amount"
+msgstr "Cantidad"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:60
+msgid "Published"
+msgstr "Publicado"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:61
+msgid "Trash"
+msgstr "Papelera"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:219
+msgid "Delete permanently"
+msgstr "Eliminar permanentemente"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:223
+msgid "Delete"
+msgstr "Eliminar"
+
+#. translators: %s: post title
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:259
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:260
+#: includes/class.yith-wcdppm-post-types.php:57
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: %s: post title
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:270
+msgid "Restore %s from the Trash"
+msgstr "Restaurar %s de la papelera"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:271
+msgid "Restore"
+msgstr "Restaurar"
+
+#. translators: %s: post title
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:278
+msgid "Move %s to the Trash"
+msgstr "Mover %s a la papelera"
+
+#. translators: %s: post title
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:287
+msgid "Delete %s permanently"
+msgstr "Eliminar %s permanentemente"
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:288
+msgid "Delete Permanently"
+msgstr "Eliminar permanentemente"
+
+#: includes/class.yith-wcdppm-post-types.php:53
+#: includes/class.yith-wcdppm-post-types.php:54
+msgid "Dynamic Price per Payment Methods"
+msgstr "Dynamic Price per Payment Methods"
+
+#: includes/class.yith-wcdppm-post-types.php:55
+msgid "Add new rule"
+msgstr "Añadir nueva regla"
+
+#: includes/class.yith-wcdppm-post-types.php:56
+msgid "Add New Rule"
+msgstr "Añadir nueva regla"
+
+#: includes/class.yith-wcdppm-post-types.php:58
+msgid "Edit Rule"
+msgstr "Editar regla"
+
+#: includes/class.yith-wcdppm-post-types.php:59
+msgid "New Rule"
+msgstr "Nueva regla"
+
+#: includes/class.yith-wcdppm-post-types.php:60
+#: includes/class.yith-wcdppm-post-types.php:61
+msgid "View Rule"
+msgstr "Ver regla"
+
+#: includes/class.yith-wcdppm-post-types.php:62
+msgid "Search Rules"
+msgstr "Buscar reglas"
+
+#: includes/class.yith-wcdppm-post-types.php:63
+msgid "No Rules found"
+msgstr "No se encontraron reglas"
+
+#: includes/class.yith-wcdppm-post-types.php:64
+msgid "No Rules found in trash"
+msgstr "No se encontraron reglas en la papelera"
+
+#: includes/class.yith-wcdppm-post-types.php:65
+msgid "Parent Rules"
+msgstr "Reglas superiores"
+
+#: includes/class.yith-wcdppm-post-types.php:67
+msgid "All YITH Rules"
+msgstr "Todas las reglas de YITH"
+
+#: includes/class.yith-wcdppm-post-types.php:71
+msgid "Dynamic Payment Methods"
+msgstr "Métodos de pago dinámicos"
+
+#: includes/class.yith-wcdppm-post-types.php:73
+msgid "This is where rules are stored."
+msgstr "Aquí es donde se almacenan las reglas."
+
+#: includes/class.yith-wcdppm-post-types.php:102
+msgid "Payment method price rule"
+msgstr "Regla de precio de método de pago"
+
+#: includes/class.yith-wcdppm-post-types.php:108
+msgid "Dynamic pricing per payments - form"
+msgstr "Precio dinámico por pagos - formulario"
+
+#: includes/class.yith-wcdppm-post-types.php:168
+msgid "Back to rules"
+msgstr "Volver a las reglas"
+
+#: templates/admin/dynamic-pricing-per-payment-method-rules.php:19
+msgid "Dynamic Pricing per Payment Methods Rules"
+msgstr "Reglas de Dynamic Pricing per Payment Methods"
+
+#: templates/admin/dynamic-pricing-per-payment-method-rules.php:19
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: templates/metaboxes/types/yith_wcdppm_ajax_product.php:41
+msgid "Search for a product&hellip;"
+msgstr "Buscar un producto&hellip;"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Dynamic pricing per Payment Method for WooCommerce "
+"Premium</strong></code> allows you to set a markup or a discount depending "
+"on the payment method used.  <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce on <strong>"
+"YITH</strong></a>."
+msgstr ""
+"<code><strong>YITH Dynamic pricing per Payment Method for WooCommerce "
+"Premium</strong></code> te permite establecer un margen o un descuento "
+"dependiendo del método de pago utilizado. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Obtén más plugins para tu comercio electrónico en <strong>"
+"YITH</strong></a>."
+
+#: includes/class.yith-wcdppm-dynamic-payment-methods-list-table.php:279
+msgctxt "verb"
+msgid "Trash"
+msgstr "Papelera"
+
+#: includes/class.yith-wcdppm-post-types.php:66
+msgctxt "Admin menu name"
+msgid "YITH Rules"
+msgstr "Reglas de YITH"
+
+#: init.php:38
+msgctxt "Alert Message: WooCommerce requires"
+msgid ""
+"YITH Dynamic Pricing per Payment Method for WooCommerce is enabled but not "
+"effective. It requires WooCommerce in order to work."
+msgstr ""
+"YITH Dynamic Pricing per Payment Method for WooCommerce está activado pero "
+"no es efectivo. Necesita WooCommerce para funcionar."
