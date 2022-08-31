@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-27 12:44+0000\n"
+"PO-Revision-Date: 2021-06-10 16:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2021-06-10 15:24+0000\n"
 "Last-Translator: \n"
 "Language-Team: Spanish (Spain)\n"
-"X-Loco-Version: 2.6.2; wp-6.0.1"
+"X-Loco-Version: 2.4.0; wp-5.6.1"
 
 #: packages/woocommerce-admin/src/Notes/DrawAttention.php:60
 msgid "Get noticed: how to draw attention to your online store"
@@ -23542,14 +23542,14 @@ msgstr "Calcular envío"
 
 #: templates/cart/proceed-to-checkout-button.php:26
 msgid "Proceed to checkout"
-msgstr "Iniciar compra"
+msgstr "Finalizar compra"
 
 #: includes/wc-template-functions.php:2132
 #: includes/customizer/class-wc-shop-customizer.php:678
 #: packages/woocommerce-blocks/build/checkout.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/index.js:17
 msgid "Checkout"
-msgstr "Iniciar compra"
+msgstr "Finalizar compra"
 
 #: templates/cart/mini-cart.php:92
 msgid "No products in the cart."
@@ -23893,7 +23893,7 @@ msgstr "Elige una opción"
 
 #: includes/wc-template-functions.php:2283
 msgid "Place order"
-msgstr "Realizar pedido"
+msgstr "Realizar el pedido"
 
 #: includes/wc-template-functions.php:2224
 msgctxt "breadcrumb"
@@ -27422,7 +27422,7 @@ msgstr "Mi cuenta"
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1180
 msgctxt "Page setting"
 msgid "Checkout"
-msgstr "Iniciar compra"
+msgstr "Finalizar compra"
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1176
 msgctxt "Page setting"
@@ -31237,7 +31237,7 @@ msgstr "Mi cuenta"
 #: includes/class-wc-install.php:572
 msgctxt "Page title"
 msgid "Checkout"
-msgstr "Iniciar compra"
+msgstr "Finalizar compra"
 
 #: includes/class-wc-install.php:567
 msgctxt "Page title"
