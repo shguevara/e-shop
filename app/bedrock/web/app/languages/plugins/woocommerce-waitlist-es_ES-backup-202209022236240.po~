@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: WooCommerce Waitlist\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-12 12:10+0000\n"
-"PO-Revision-Date: 2022-09-02 22:36+0000\n"
+"PO-Revision-Date: 2022-08-24 19:11+0000\n"
 "Last-Translator: \n"
-"Language-Team: Español\n"
+"Language-Team: Spanish (Spain)\n"
 "Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
@@ -874,16 +874,16 @@ msgstr "Fuiste eliminado de todos los historiales de lista de espera"
 #: classes/frontend/account/class-pie-wcwl-frontend-user-waitlist.php:32
 #: templates/emails/plain/waitlist-mailout.php:29
 msgid "You have been removed from the waitlist for this product"
-msgstr "Abandonaste la lista de espera para este producto"
+msgstr "Fuiste eliminado de la lista de espera para este producto"
 
 #: classes/frontend/class-pie-wcwl-frontend-product.php:418
 msgid "You have been removed from the waitlist for this ticket"
-msgstr "Abandonaste la lista de espera para este ticket"
+msgstr "Fuiste eliminado de la lista de espera para este ticket"
 
 #: classes/class-pie-wcwl-waitlist-left-email.php:72
 msgid ""
 "You have been removed from the waitlist for {product_title} at {blogname}"
-msgstr "Abandonaste la lista de espera para \"{product_title}\""
+msgstr "Fuiste eliminado de la lista de espera para {product_title}"
 
 #: templates/emails/waitlist-joined.php:26
 #: templates/emails/plain/waitlist-joined.php:22
@@ -915,7 +915,7 @@ msgstr "Aún no te sumaste a ninguna lista de espera"
 
 #: classes/frontend/class-pie-wcwl-frontend-init.php:246
 msgid "You have successfully been removed from the waitlist for this product."
-msgstr "Abandonaste la lista de espera para este producto"
+msgstr "Fuiste eliminado de la lista de espera para este producto"
 
 #: classes/frontend/class-pie-wcwl-frontend-ajax.php:81
 msgid "You have successfully updated the waitlists for the selected items"
