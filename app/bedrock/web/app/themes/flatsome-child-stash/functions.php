@@ -78,6 +78,7 @@ if ( WP_ENV === 'development' ) {
     }
 }
 
+
 // Pasar orden a ON-HOLD a PENDING PAYMENT, para Bank Transfer
 add_action( 'woocommerce_thankyou', 'woocommerce_auto_processing_orders');
 function woocommerce_auto_processing_orders( $order_id ) {
@@ -91,106 +92,6 @@ function woocommerce_auto_processing_orders( $order_id ) {
         $order->update_status( 'pending payment' );
     }
 }
-
-
-
-
-
-
-/**
- * WPFORMS
- *
- * 
- * 
- */
-
-
-/**
- * Enqueue your own stylesheet for conversational forms
- * 
- * @link  https://wpforms.com/developers/how-to-enqueue-a-stylesheet-for-conversational-forms/
- * 
- */
- 
-// Dequee and Deregister styles from plugin
-add_action('wp_enqueue_scripts', function() {
-    wp_dequeue_style('wpforms-conversational-forms');
-    wp_deregister_style('wpforms-conversational-forms');
-},99999);
-
-// Enquee specfic stylehseet(s)
-function enquee_spefic_css() {
-    wp_enqueue_style('conversational-forms', get_stylesheet_directory_uri().'/wpforms-conversational-forms/conversational-forms.css');
-    wp_enqueue_style('color-scheme-dark', get_stylesheet_directory_uri().'/wpforms-conversational-forms/color-scheme-dark.css');
-}
-add_action( 'wpforms_conversational_forms_enqueue_styles', 'enquee_spefic_css',999 );
-
-/**
- * Preserve the query strings in the URL on form submit.
- *
- * @link   https://wpforms.com/developers/how-to-keep-the-query-strings-in-the-url-on-submit/
- * 
- */
- 
-function wpf_dev_process_redirect_url() {
-    global $wp;
-    $current_url = home_url( add_query_arg( array( $_GET), $wp->request ) );
-    return $current_url;
-}
-add_filter( 'wpforms_process_redirect_url', 'wpf_dev_process_redirect_url' );
-
-
-// WPFORMS - Process smart tags in HTML Code block
-function wpf_dev_html_process_smarttags( $properties, $field, $form_data ) {
-    $properties['inputs']['primary']['code'] = apply_filters( 'wpforms_process_smart_tags', $properties['inputs']['primary']['code'], $form_data );
-    return $properties;
-}
-add_filter( 'wpforms_field_properties_html', 'wpf_dev_html_process_smarttags', 10, 3 );
-
-
-/**
- * Select specific form option based on query string
- *
- * 
- * 
- */
-function wpf_preselect_dropdown( $field, $field_atts, $form_data ) {
-	// Only continue of the form and field are the ones we are looking for
-	if ( '2153' != $form_data['id'] || '3' != $field['id'] ) {
-		return $field;
-	}
-
-	// Only continue if a prefered vehicle was provided
-	if ( empty( $_GET['razon'] ) ) {
-		return $field;
-	}
-
-	// Check to see if the vehicle provided exists in the dropdown, if it does
-	// then set it to default.
-	foreach ( $field['choices'] as $key => $choice ) {
-		if ( $choice['label'] == $_GET['razon'] ) {
-			$field['choices'][$key]['default'] = '1';
-			break;
-		}
-	}
-	return $field;
-}
-add_filter( 'wpforms_select_field_display', 'wpf_preselect_dropdown', 10 , 3 );
-
-
-
-
-/**
- * WAITLIST
- *
- * 
- * 
- */
-
-// Remove "My Waitlist" tab from MY ACCOUNT
-// add_filter( 'wcwl_enable_waitlist_account_tab', '__return_false' );
-
-
 
 
 /**
