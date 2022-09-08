@@ -234,8 +234,8 @@ add_action('customize_register', 'themename_customize_register');
 
 // HEADER
 /* Inline script printed out in the header */
-add_action('wp_head', 'custom_js_wp_head');
-function custom_js_wp_head() {
+add_action('wp_head', 'add_custom_js_wp_head');
+function add_custom_js_wp_head() {
     ?>
         <script>
             function GTM_push_custom_event(eventName){
@@ -243,9 +243,19 @@ function custom_js_wp_head() {
                 window.dataLayer.push({
                 'event': eventName
                 });
-
+                return
             }
         </script>
     <?php
 }
+
+function run_GTM_push_custom_event($param) {
+    ?>
+    <script> GTM_push_custom_event($param); </script>
+    <?php
+}
+
+
+
 ?>
+
