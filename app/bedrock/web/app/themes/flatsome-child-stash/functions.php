@@ -248,14 +248,5 @@ function add_custom_js_wp_head() {
         </script>
     <?php
 }
-
-function run_GTM_push_custom_event($param) {
-    ?>
-    <script> GTM_push_custom_event($param); </script>
-    <?php
-}
-
-
-
 ?>
 
