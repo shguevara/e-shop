@@ -229,3 +229,17 @@ function color_customizer($wp_customize){
         ));
 }
 add_action('customize_register', 'themename_customize_register');
+
+
+
+// HEADER
+/* Inline script printed out in the header */
+add_action('wp_head', 'tutsplus_add_script_wp_head');
+function tutsplus_add_script_wp_head() {
+    ?>
+        <script>
+            console.log("I'm an inline script tag added to the header.");
+        </script>
+    <?php
+}
+?>
