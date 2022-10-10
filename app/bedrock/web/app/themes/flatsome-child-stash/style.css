@@ -249,39 +249,6 @@ input[type='button'].button,
 /* HEADER */
 
 /* STORE NOTICE */
-.demo_store {
-  padding: 0;
-}
-
-.eapps-countdown-timer-bar-close:before,
-.eapps-countdown-timer-bar-close:after {
-  height: 2px !important;
-}
-
-div.eapps-countdown-timer-position-bar {
-  background: url('/app/uploads/2021/03/countdown-orange.png');
-  background-size: 320px;
-  z-index: 0 !important;
-}
-
-div.eapps-countdown-timer-position-bar li {
-  margin-bottom: 0;
-}
-
-.eapps-countdown-timer-hidden {
-  height: 0px !important;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  overflow: hidden !important;
-}
-
-div#eapps-countdown-timer-1 .eapps-countdown-timer-item-group-label {
-  max-width: 50px;
-}
-
-div.eapps-countdown-timer-position-bar {
-  height: 85px;
-}
 
 /* HEDAER TOP */
 #top-bar {
@@ -329,16 +296,16 @@ div.eapps-countdown-timer-position-bar {
 }
 
 .nav {
-  margin-bottom: -1px !important;
+  /* margin-bottom: -1px !important; */
 }
 
 .nav > li {
-  margin: 0 9px;
+  /* margin: 0 9px; */
 }
 
 .nav > li > a {
-  font-size: 1.1em;
-  font-weight: 500 !important;
+  /* font-size: 1.1em;
+  font-weight: 500 !important; */
 }
 
 .nav-spacing-xlarge > li {
@@ -578,7 +545,7 @@ div.eapps-countdown-timer-position-bar {
 
 
 
-    /* ADD TO CART Icon */
+/* ADD TO CART Icon */
 .cart-icon strong {
     color: #3a9f5f !important;
     border-color: #3a9f5f !important;
