@@ -248,7 +248,7 @@ input[type='button'].button,
 /******************************/
 /* HEADER */
 .header-bottom {
-  margin-top: -18px;
+  margin-top: -14px;
   font-weight: normal;
   color: #000;
 
@@ -259,8 +259,10 @@ input[type='button'].button,
 }
 
 .nav-line-bottom > li > a {
-  padding: 6px 13px;
-  font-size: 0.9em !important;
+  padding: 6px 13px !important;
+  font-size: 0.8em !important;
+  font-weight: normal !important;
+  color: #000;
 }
 
 
