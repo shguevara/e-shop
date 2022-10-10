@@ -1438,12 +1438,11 @@ h2.section-title-normal {
   
 }
 
-h2.section-title-normal .section-title-normal span {
+h2.section-title-normal .section-title-main {
   padding-bottom: 0;
   margin-bottom: -5px;
   border: none !important;
   text-transform:none !important;
-
 }
 
 h2.section-title-normal a {
