@@ -1428,14 +1428,22 @@ button.woocommerce_waitlist {
   border: 1px solid red;
 }
 
+.section-title-container {
+  margin-bottom: 1.2em;
+}
+
 h2.section-title-normal {
   border: none;
   font-weight: bold;
   
 }
+
 h2.section-title-normal .section-title-normal span {
-  border: none;
-  text-transform:none;
+  padding-bottom: 0;
+  margin-bottom: -5px;
+  border: none !important;
+  text-transform:none !important;
+
 }
 
 h2.section-title-normal a {
@@ -1443,8 +1451,9 @@ h2.section-title-normal a {
 }
 
 .shop-grid a.button.white {
-  color: #000;
-  box-shadow: 3px 3px 7px #0000009e
+  color: #000 !important;
+  box-shadow: 3px 3px 7px #00000052;
+  padding: 2px 25px;
 }
 
 .shop-grid a.button.white:hover {
