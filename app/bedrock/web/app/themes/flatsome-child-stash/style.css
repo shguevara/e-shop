@@ -249,42 +249,9 @@ input[type='button'].button,
 /* HEADER */
 
 /* STORE NOTICE */
-.demo_store {
-  padding: 0;
-}
-
-.eapps-countdown-timer-bar-close:before,
-.eapps-countdown-timer-bar-close:after {
-  height: 2px !important;
-}
-
-div.eapps-countdown-timer-position-bar {
-  background: url('/app/uploads/2021/03/countdown-orange.png');
-  background-size: 320px;
-  z-index: 0 !important;
-}
-
-div.eapps-countdown-timer-position-bar li {
-  margin-bottom: 0;
-}
-
-.eapps-countdown-timer-hidden {
-  height: 0px !important;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  overflow: hidden !important;
-}
-
-div#eapps-countdown-timer-1 .eapps-countdown-timer-item-group-label {
-  max-width: 50px;
-}
-
-div.eapps-countdown-timer-position-bar {
-  height: 85px;
-}
 
 /* HEDAER TOP */
-#top-bar {
+/* #top-bar {
   height: 40px !important;
   min-height: 40px;
 }
@@ -306,9 +273,11 @@ div.eapps-countdown-timer-position-bar {
 
 .top-bar-nav > li > a {
   line-height: normal !important;
-}
+} */
 
 /* MASTEHEAD */
+/*
+
 .logo-left .logo {
   margin-right: 39px;
 }
@@ -323,8 +292,10 @@ div.eapps-countdown-timer-position-bar {
   font-weight: 700 !important;
 }
 
+*/
+
 /* MY ACCOUNT */
-.woocommerce-MyAccount-navigation-link a {
+/* .woocommerce-MyAccount-navigation-link a {
   font-size: 0.9em;
 }
 
@@ -374,7 +345,7 @@ div.eapps-countdown-timer-position-bar {
 
 .shop-page-title {
   margin-top: 0;
-}
+} */
 
 /******************************/
 /* BANNER */
@@ -1482,6 +1453,10 @@ h2.section-title-normal a {
   background-color: #eeebe7 !important;
 }
 
+.footer-1 h2 {
+  font-weight: ;
+}
+
 .footer-1 .widget-title {
   color: #000;
   border-bottom: 2px solid #000;
@@ -1597,10 +1572,10 @@ ul.menu > li + li,
   .row-small > .col {
     padding: 0 2.8px 8.6px;
   }
-
+/* 
   .header-main {
     height: 90px !important;
-  }
+  } */
 
   .woocommerce-ordering {
     top: 0;
