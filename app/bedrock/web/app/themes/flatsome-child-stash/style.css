@@ -251,15 +251,16 @@ input[type='button'].button,
   margin-top: -18px;
   font-weight: normal;
   color: #000;
-  font-size: 0.85em !important;
+
 }
 
 .header-bottom a:hover{
   text-decoration: none;
 }
 
-.header-bottom > li > a {
+.nav-line-bottom > li > a {
   padding: 6px 13px;
+  font-size: 0.9em !important;
 }
 
 
