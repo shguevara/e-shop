@@ -247,6 +247,21 @@ input[type='button'].button,
 
 /******************************/
 /* HEADER */
+.header-bottom {
+  margin-top: -18px;
+  font-weight: normal;
+  color: #000;
+  font-size: 0.85em !important;
+}
+
+.header-bottom a:hover{
+  text-decoration: none;
+}
+
+.header-bottom > li > a {
+  padding: 6px 13px;
+}
+
 
 /* STORE NOTICE */
 
