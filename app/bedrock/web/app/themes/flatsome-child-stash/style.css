@@ -259,8 +259,7 @@ input[type='button'].button,
 
 .header-bottom  .nav-line-bottom > li > a {
   padding: 7px 13px 11px 13px !important;
-  font-size: 0.9em !important;
-  font-weight: normal !important;
+  font-size: 0.85em !important;
   color: #000;
 }
 
@@ -274,6 +273,21 @@ input[type='button'].button,
 
 .header-bottom .header-bottom-nav {
   justify-content: space-between !important;
+}
+
+.header-bottom .nav-dropdown-default {
+  font-size: 0.9em !important;
+  padding: 8px ;
+}
+
+.header-bottom .nav-dropdown {
+  left: 0 !important;
+}
+
+.header-bottom  .nav-dropdown-has-border .nav-dropdown {
+  border: 2px solid #dddddd57;
+  box-shadow: 1px 1px 15px rgb(0 0 0 / 8%) !important;
+  -webkit-box-shadow: 1px 1px 15px rgb(0 0 0 / 8%) !important;
 }
 
 
@@ -1223,6 +1237,11 @@ h2.faq {
   display: none;
 }
 
+#woocommerce-product-search-field-0 {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
 /******************************/
 /* WAITLIST */
 .wcwl_elements.bound {
@@ -1621,6 +1640,7 @@ ul.menu > li + li,
     right: 0;
   }
 
+  
   li.current-dropdown > .nav-dropdown {
     left: -265px;
   }
