@@ -277,7 +277,16 @@ input[type='button'].button,
 
 .header-bottom .nav-dropdown-default {
   font-size: 0.9em !important;
-  padding: 8px ;
+  padding:0;
+}
+
+.header-bottom .nav-dropdown-default a {
+  padding-left: 15px;
+  margin: 4px 4px;
+}
+
+.header-bottom .nav-dropdown-default a:hover {
+  background-color: #ececec;
 }
 
 .header-bottom .nav-dropdown {
