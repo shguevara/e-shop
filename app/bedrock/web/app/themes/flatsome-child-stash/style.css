@@ -878,13 +878,14 @@ span.variation-recommended {
 
   /* FONTS ADD-ONS*/
   .container-fontsAddon .ywapo_input_container {
-    padding: 15px;
+    padding: 15px !important;
+    border-radius: 4px;
 }
   
   .container-fontsAddon .ywapo_label.with_image img {
-    height: 25px;
+    height: 40px;
     margin: 0 auto;
-    width: auto;
+    width: auto !important;
   }
 
   /* WISHLIST */

@@ -250,7 +250,7 @@ function add_custom_js_wp_head() {
 }
 
 // FOOTER JS
-/* Inline script printed out in the header */
+/* Inline script printed out in the footer */
 add_action('wp_footer', 'add_custom_js_wp_footer');
 function add_custom_js_wp_footer() {
     ?>
