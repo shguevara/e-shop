@@ -248,5 +248,12 @@ function add_custom_js_wp_head() {
         </script>
     <?php
 }
+
+wp_register_script( 'dummy-handle-footer', '', [], '', true );
+wp_enqueue_script( 'dummy-handle-footer'  );
+wp_add_inline_script( 'dummy-handle-footer', 'console.log( "footer" );' );
+
 ?>
+
+
 
