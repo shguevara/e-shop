@@ -251,18 +251,22 @@ input[type='button'].button,
   margin-top: -14px;
   font-weight: normal;
   color: #000;
-
+  border-bottom: 1px solid #f2f2f6;
 }
 
 .header-bottom a:hover{
   text-decoration: none;
 }
 
-.nav-line-bottom > li > a {
-  padding: 6px 13px !important;
-  font-size: 0.8em !important;
+.header-bottom  .nav-line-bottom > li > a {
+  padding: 0px 13px 15px 13px !important;
+  font-size: 0.9em !important;
   font-weight: normal !important;
   color: #000;
+}
+
+.header-bottom .nav-line-bottom > li.active > a:before {
+  background-color: #42cca6 !important;
 }
 
 
