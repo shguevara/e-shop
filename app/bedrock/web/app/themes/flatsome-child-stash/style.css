@@ -308,7 +308,11 @@ input[type='button'].button,
 
 /* MASTEHEAD */
 .logo-left .logo {
-  margin-right: 39px;
+  margin-right: 30px;
+}
+
+#masthead {
+  margin-top: 10px;
 }
 
 #masthead .menu-item {
