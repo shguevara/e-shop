@@ -232,7 +232,7 @@ add_action('customize_register', 'themename_customize_register');
 
 
 
-// HEADER
+// HEADER JS
 /* Inline script printed out in the header */
 add_action('wp_head', 'add_custom_js_wp_head');
 function add_custom_js_wp_head() {
@@ -249,9 +249,21 @@ function add_custom_js_wp_head() {
     <?php
 }
 
-wp_register_script( 'dummy-handle-footer', '', [], '', true );
-wp_enqueue_script( 'dummy-handle-footer'  );
-wp_add_inline_script( 'dummy-handle-footer', 'console.log( "footer" );' );
+// FOOTER JS
+/* Inline script printed out in the header */
+add_action('wp_footer', 'add_custom_js_wp_footer');
+function add_custom_js_wp_footer() {
+    ?>
+        <script>
+            var container_addonFont = jQuery(".ywapo_group_container_labels:has(h3:contains('Fuente'))")
+            if(container_addonFont.length) {
+                jQuery( container_addonFont).addClass('container-fontsAddon');
+                console.log( "footer done" );
+            }
+        </script>
+    <?php
+}
+
 
 ?>
 

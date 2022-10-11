@@ -877,11 +877,11 @@ span.variation-recommended {
   }
 
   /* FONTS ADD-ONS*/
-  .fonts-addon .ywapo_input_container {
+  .container-fontsAddon .ywapo_input_container {
     padding: 15px;
 }
   
-  .fonts-addon .ywapo_label.with_image img {
+  .container-fontsAddon .ywapo_label.with_image img {
     height: 25px;
     margin: 0 auto;
     width: auto;
