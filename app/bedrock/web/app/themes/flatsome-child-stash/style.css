@@ -248,14 +248,9 @@ input[type='button'].button,
 /******************************/
 /* HEADER */
 .header-bottom {
-  margin-top: -14px;
   font-weight: normal;
   color: #000;
   border-bottom: 1px solid #f2f2f6;
-}
-
-.header-bottom > div > div {
-  width: 100%;
 }
 
 .header-bottom a:hover{
@@ -263,7 +258,7 @@ input[type='button'].button,
 }
 
 .header-bottom  .nav-line-bottom > li > a {
-  padding: 0px 13px 15px 13px !important;
+  padding: 7px 13px 11px 13px !important;
   font-size: 0.9em !important;
   font-weight: normal !important;
   color: #000;
@@ -271,6 +266,10 @@ input[type='button'].button,
 
 .header-bottom .nav-line-bottom > li.active > a:before {
   background-color: #42cca6 !important;
+}
+
+.header-bottom > div > div {
+  width: 100%;
 }
 
 .header-bottom .header-bottom-nav {
@@ -637,7 +636,7 @@ input[type='button'].button,
 
   /* LEAD and STOCK */
 .product-main .product-info p.stock {
-  text-transform: uppercase;
+  text-transform:none;
   color: inherit;
 }
 
