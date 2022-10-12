@@ -808,7 +808,7 @@ span.variation-recommended {
   }
 
   .container-addon-colors .ywapo_options_container {
-    height: 309px;
+    height: 310px;
     overflow: auto;
   }
   
@@ -817,17 +817,17 @@ span.variation-recommended {
   }
   
   .container-addon-colors .ywapo_input_container_labels {
-    padding: 9px 3px;
+    padding: 9px 3px !important;
     min-height: 96px;
-    margin-top:0;
+    margin-top:0 !important;
   }
   
   .container-addon-colors .ywapo_single_option_image {
     border-radius: 30px;
-    width:32px;
+    width:32px !important;
     display: block;
     border:1px solid #dadada;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   
   .container-addon-colors .ywapo_label_tag_position_before {
@@ -858,7 +858,7 @@ span.variation-recommended {
   }
 
   
-  .select_box_colorpicker .select_option_colorpicker,
+  /* .select_box_colorpicker .select_option_colorpicker,
   .select_box_colorpicker .yith_wccl_value {
     border-radius: 25px;
   }
@@ -871,17 +871,16 @@ span.variation-recommended {
   
   .select_box_colorpicker .select_option {
     margin-right: 5px;
-  }
+  } */
 
   /* FONTS ADD-ON*/
   .container-addon-fonts .ywapo_input_container {
     padding: 15px !important;
-    border-radius: 4px;
 }
   
   .container-addon-fonts .ywapo_label.with_image img {
     height: 40px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     width: auto !important;
   }
 
