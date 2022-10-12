@@ -255,17 +255,23 @@ add_action('wp_footer', 'add_custom_js_wp_footer');
 function add_custom_js_wp_footer() {
     ?>
         <script>
-            var container_addonFonts = jQuery(".ywapo_group_container_labels:has(h3:contains('Fuente'))")
+            var container_addonFonts = jQuery(".ywapo_group_container:has(h3:contains('Fuente'))")
             if(container_addonFonts.length) {
                 jQuery( container_addonFonts ).addClass('container-addon-fonts');
-                console.log( "fonts done" );
+                console.log('addon fonts')
             }
-
-            var container_addonColors = jQuery(".ywapo_group_container_labels:has(h3:contains('Colores'))")
+            
+            var container_addonColors = jQuery(".ywapo_group_container:has(h3:contains('Colores'))")
             if(container_addonColors.length) {
                 jQuery( container_addonColors ).addClass('container-addon-colors');
-                console.log( "colors done" );
+                console.log('addon colors')
             }
+            
+            var container_addonExpedite = jQuery(".ywapo_group_container:has(h3:contains('Express'))")
+            if(container_addonExpedite.length) {
+                jQuery( container_addonExpedite ).addClass('container-addon-expedite');
+                console.log('addon expedite')
+            }            
         </script>
     <?php
 }

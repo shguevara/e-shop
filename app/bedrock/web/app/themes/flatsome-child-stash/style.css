@@ -876,7 +876,7 @@ span.variation-recommended {
   /* FONTS ADD-ON*/
   .container-addon-fonts .ywapo_input_container {
     padding: 15px !important;
-}
+  }
   
   .container-addon-fonts .ywapo_label.with_image img {
     height: 40px;
@@ -920,10 +920,27 @@ span.variation-recommended {
   .wishlist_table .button.alt  {
     background-color: #42cca6;
     text-decoration: none;
-}
+  }
 
   .wishlist_table .product-name {
     font-weight: bold;
+  }
+
+  /* EXPEDITE DELIVERY */
+  .container-addon-expedite .ywapo_label {
+    margin-right: 13px;
+  }
+
+  .container-addon-expedite .ywapo_label_price {
+    padding-left: 9px;
+    background: #efefef;
+    padding: 6px;
+    border-radius: 10px;
+  }  
+
+
+  .container-addon-expedite .ywapo_price_sign {
+    font-weight: normal;
   }
 
   
