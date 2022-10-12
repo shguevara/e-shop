@@ -775,118 +775,111 @@ span.variation-recommended {
   margin-left: 16px;
 }
 
-  /* COLOR PALETTE  */
-  .ywapo_label_price .woocommerce-Price-currencySymbol {
-    margin: 0 -2px 0 3px;
-}
-
 
   /* WAPO */
 .ywapo_group_container h3 {
   margin-top: 25px !important;
 }
 
-  /* LABEL options w/ rounded corners, shadow, green selected */
-#ywapo_value_22 .ywapo_input_container_labels,
-#ywapo_value_9 .ywapo_input_container_labels {
-  box-shadow: 0 2px 3px 0 rgb(25 53 68 / 9%);
-  overflow: hidden;
-  border-radius: 10px;
-}
+ /* YITH ADDON CUSTOMIZATION */
 
-#ywapo_value_22 .ywapo_input_container_labels.ywapo_selected,
-#ywapo_value_9 .ywapo_input_container_labels.ywapo_selected {
-  box-shadow: 0 2px 3px 0 rgb(66 204 166 / 28%);
-}
-
-
-  /* COLORS */
-#ywapo_value_22 .ywapo_options_container {
-  height: 309px;
-  overflow: auto;
-}
-
-#ywapo_value_22 .woocommerce form .form-row .ywapo_input_container label > img {
-  width: auto;
-}
-
-#ywapo_value_22 .ywapo_input_container_labels {
-  /* padding: 9px 5px; */
-  padding: 9px 3px;
-  min-height: 96px;
-  margin-top:0;
-}
-
-#ywapo_value_22 .ywapo_single_option_image {
-  border-radius: 30px;
-  width:32px;
-  display: block;
-  border:1px solid #dadada;
-  margin: 0 auto;
-}
-
-.ywapo_label_tag_position_before {
-  overflow: hidden;
-}
-
-.ywapo_input_container_text label {
-  margin-bottom: 0 !important;
-} 
-
-#ywapo_value_22 .ywapo_label_position_before {
-  width: 101px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  display: inline-block;
-  margin-top: 6px;
-  text-align: center;
-  margin-bottom: -12px;
-  font-size: 0.95em;
-}
-
-#ywapo_value_22 span.ywapo_label_price {
-  display: block;
-  text-align: center;
-  font-size: 0.8em;
-  line-height: 1;
-}
-
-
-
-.ywapo_selected,
-.select_box_colorpicker .select_option:hover, 
-.select_box_colorpicker .select_option.selected {
-  border-color: #42cca6!important;
-}
-
-.select_box_colorpicker .select_option_colorpicker,
-.select_box_colorpicker .yith_wccl_value {
-  border-radius: 25px;
-}
-
-.select_option .yith_wccl_value {
-  height: 33px;
-  min-width: 33px;
-  border: 4px solid #FFF;
-}
-
-.select_box_colorpicker .select_option {
-  margin-right: 5px;
-}
-
-  /* CUSTOMIZATION */
-  input#ywapo_ctrl_id_1_0{
-    text-transform: uppercase;
+  /* LABELS look & feel */
+  .ywapo_selected,
+  .select_box_colorpicker .select_option:hover, 
+  .select_box_colorpicker .select_option.selected {
+    border-color: #42cca6!important;
   }
 
-  /* FONTS ADD-ONS*/
-  .container-fontsAddon .ywapo_input_container {
+  .container-addon-fonts .ywapo_input_container_labels,
+  .container-addon-colors .ywapo_input_container_labels {
+    box-shadow: 0 2px 3px 0 rgb(25 53 68 / 9%);
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  /* .container-addon-fonts .ywapo_input_container_labels.ywapo_selected,
+  .container-addon-colors .ywapo_input_container_labels.ywapo_selected {
+    box-shadow: 0 2px 3px 0 rgb(66 204 166 / 28%);
+  }   */
+
+  /* COLORS ADD-ON*/
+  .container-addon-colors .ywapo_label_price .woocommerce-Price-currencySymbol {
+    margin: 0 -2px 0 3px;
+  }
+
+  .container-addon-colors .ywapo_options_container {
+    height: 309px;
+    overflow: auto;
+  }
+  
+  .container-addon-colors .woocommerce form .form-row .ywapo_input_container label > img {
+    width: auto;
+  }
+  
+  .container-addon-colors .ywapo_input_container_labels {
+    padding: 9px 3px;
+    min-height: 96px;
+    margin-top:0;
+  }
+  
+  .container-addon-colors .ywapo_single_option_image {
+    border-radius: 30px;
+    width:32px;
+    display: block;
+    border:1px solid #dadada;
+    margin: 0 auto;
+  }
+  
+  .container-addon-colors .ywapo_label_tag_position_before {
+    overflow: hidden;
+  }
+  
+  .container-addon-colors .ywapo_input_container_text label {
+    margin-bottom: 0 !important;
+  } 
+  
+  .container-addon-colors .ywapo_label_position_before {
+    width: 101px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: -12px;
+    font-size: 0.95em;
+  }
+  
+  .container-addon-colors span.ywapo_label_price {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1;
+  }
+
+  
+  .select_box_colorpicker .select_option_colorpicker,
+  .select_box_colorpicker .yith_wccl_value {
+    border-radius: 25px;
+  }
+  
+  .select_option .yith_wccl_value {
+    height: 33px;
+    min-width: 33px;
+    border: 4px solid #FFF;
+  }
+  
+  .select_box_colorpicker .select_option {
+    margin-right: 5px;
+  }
+
+  /* FONTS ADD-ON*/
+  .container-addon-fonts .ywapo_input_container {
     padding: 15px !important;
     border-radius: 4px;
 }
   
-  .container-fontsAddon .ywapo_label.with_image img {
+  .container-addon-fonts .ywapo_label.with_image img {
     height: 40px;
     margin: 0 auto;
     width: auto !important;
