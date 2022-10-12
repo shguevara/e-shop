@@ -137,6 +137,10 @@ a.back-to-top {
   background-color: #3d9cd2 !important;
 }
 
+.message-container {
+  text-align: center;
+}
+
 /******************************/
 /*** DOWNLOAD FILE - TABLE ***/
 .woocommerce-table--order-downloads td {
