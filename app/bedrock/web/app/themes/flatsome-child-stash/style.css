@@ -339,7 +339,7 @@ input[type='button'].button,
 }
 
 #masthead {
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 #masthead .menu-item {
@@ -1693,15 +1693,19 @@ ul.menu > li + li,
 
 
   /* PRODUCT PAGE */
-  #ywapo_value_22 .ywapo_input_container_labels{
+  .container-addon-colors .ywapo_input_container_labels{
     padding: 9px 1px !important;
   }
 
-  #ywapo_value_22 .ywapo_options_container {
+  .container-addon-colors .ywapo_options_container {
     height: 230px !important;
   }
 
   .woocommerce-breadcrumb .divider {
     margin: 0 !important;
+  }
+
+  .single-product .yith-wcwl-add-button a.add_to_wishlist {
+    font-size: 0.85em;
   }
 }
