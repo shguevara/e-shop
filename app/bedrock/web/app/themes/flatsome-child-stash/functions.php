@@ -270,7 +270,13 @@ function add_custom_js_wp_footer() {
             if(container_addonExpedite.length) {
                 jQuery( container_addonExpedite ).addClass('container-addon-expedite');
                 console.log('addon expedite')
-            }            
+            }
+            
+            var container_addonExpedite = jQuery(".ywapo_group_container:has(h3:contains('Emoji'))")
+            if(container_addonExpedite.length) {
+                jQuery( container_addonExpedite ).addClass('container-addon-emoji');
+                console.log('addon expedite')
+            }                
         </script>
     <?php
 }
