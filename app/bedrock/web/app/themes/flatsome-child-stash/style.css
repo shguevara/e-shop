@@ -857,6 +857,10 @@ span.variation-recommended {
     line-height: 1;
   }
 
+  .container-addon-colors .wapo_option_tooltip {
+    display: none;
+  }
+
   
   /* .select_box_colorpicker .select_option_colorpicker,
   .select_box_colorpicker .yith_wccl_value {
