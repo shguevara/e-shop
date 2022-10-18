@@ -912,12 +912,13 @@ span.variation-recommended {
 
   /* EMOJI ADDON */
   .container-addon-emoji .ywapo_options_container {
-    height: 235px;
+    height: 215px;
     overflow: auto;
   }
 
   .container-addon-emoji .ywapo_input_container_labels {
     padding: 8px !important;
+    margin: 5px 10px 0 0 !important;    
   }
 
   .container-addon-emoji .ywapo_input_container_labels img {
