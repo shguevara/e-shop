@@ -231,17 +231,6 @@ function color_customizer($wp_customize){
 add_action('customize_register', 'themename_customize_register');
 
 
-
-// Add support for extra MIME types on media library
-function my_theme_custom_upload_mimes( $existing_mimes ) { 
-    $existing_mimes['svg'] = 'vector/svg';
-    // Return the array back to the function with our added mime type.
-    return $existing_mimes;
-    }
-    add_filter( 'upload_mimes', 'my_theme_custom_upload_mimes' );
-
-
-
 // HEADER JS
 /* Inline script printed out in the header */
 add_action('wp_head', 'add_custom_js_wp_head');
