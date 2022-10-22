@@ -267,8 +267,10 @@ input[type='button'].button,
   color: #000;
 }
 
-.header-bottom .nav-line-bottom > li.active > a:before {
+.header-bottom .nav-line-bottom > li.active > a:before,
+.header-bottom .nav-line-bottom > li.current-product-ancestor > a:before {
   background-color: #42cca6 !important;
+  opacity: 1;
 }
 
 .header-bottom > div > div {
