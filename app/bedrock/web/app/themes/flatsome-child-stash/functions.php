@@ -260,7 +260,7 @@ function add_custom_js_wp_footer() {
                 console.log('addon fonts')
             }
             
-            var container_addonColors = jQuery(".ywapo_group_container:has(h3:contains('Colores'))")
+            var container_addonColors = jQuery(".ywapo_group_container:has(h3:contains('Color'))")
             if(container_addonColors.length) {
                 jQuery( container_addonColors ).addClass('container-addon-colors');
                 console.log('addon colors')
