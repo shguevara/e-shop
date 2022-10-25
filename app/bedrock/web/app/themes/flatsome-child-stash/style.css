@@ -668,7 +668,7 @@ input[type='button'].button,
 
 .single-product .product-benefits {
   list-style: none;
-  margin: 0 20px;
+  margin: 20px 0;
 }
 
 .single-product .product-benefits li {
@@ -1705,7 +1705,7 @@ ul.menu > li + li,
 
   /* PRODUCT PAGE */
   .container-addon-colors .ywapo_input_container_labels{
-    padding: 9px 1px !important;
+    padding: 9px 0px !important;
   }
 
   .container-addon-colors .ywapo_options_container {
