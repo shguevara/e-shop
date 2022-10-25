@@ -666,6 +666,14 @@ input[type='button'].button,
   border-radius: 0 !important;
 }
 
+.single-product .product-benefits {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.single-product .product-benefits li {
+  margin-left: 0;
+}
 
   /* LEAD and STOCK */
 .product-main .product-info p.stock {
