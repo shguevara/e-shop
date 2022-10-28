@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-27 12:44+0000\n"
+"PO-Revision-Date: 2022-10-28 15:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24911,7 +24911,7 @@ msgstr "Nombre del banco"
 #: includes/gateways/class-wc-payment-gateway-echeck.php:51
 #: packages/woocommerce-admin/dist/chunks/6.js:1
 msgid "Account number"
-msgstr "Número de cuenta"
+msgstr "CBU"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:139
 #: packages/woocommerce-admin/dist/chunks/6.js:1
