@@ -1153,6 +1153,10 @@ h2.faq {
 
 /******************************/
 /* CART */
+.woocommerce-cart .page-wrapper {
+  padding-top: 70px;
+}
+
 .woocommerce-cart .cross-sells .products {
   margin-left: 0 !important;
 }
