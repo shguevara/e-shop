@@ -89,7 +89,6 @@ defined( 'ABSPATH' ) || exit;
 				</ul>
 				<div class="clear"></div>
 			</div>
-            [block id="checkout-success-notice"]
 		</div>
 
 		<?php endif; ?>
