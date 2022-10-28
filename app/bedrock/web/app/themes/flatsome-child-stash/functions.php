@@ -152,16 +152,16 @@ add_filter( 'flatsome_payment_icons', function ( $icons ) {
  */
 
 //  Create a new role
-add_role( 'lead', __( 'Lead' ), array(
-    'read' => true, 
-  ));
+// add_role( 'lead', __( 'Lead' ), array(
+//     'read' => true, 
+//   ));
     
-//   Assign new role to 
-add_filter( 'woocommerce_new_customer_data', 'wp_assign_custom_role' );
-    function wp_assign_custom_role( $args ) {
-    $args['role'] = 'lead';
-    return $args;
-}
+// //   Assign new role to 
+// add_filter( 'woocommerce_new_customer_data', 'wp_assign_custom_role' );
+//     function wp_assign_custom_role( $args ) {
+//     $args['role'] = 'lead';
+//     return $args;
+// }
 
 // Disable XML-RPC
 add_filter('xmlrpc_enabled', '__return_false');
