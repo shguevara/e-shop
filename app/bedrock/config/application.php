@@ -146,3 +146,8 @@ define('DOMAIN_CURRENT_SITE', env('DOMAIN_CURRENT_SITE') ?: parse_url(WP_HOME,  
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
+
+/**
+ * Memory Settings for Production
+ */
+define('WP_MEMORY_LIMIT', '800M');
