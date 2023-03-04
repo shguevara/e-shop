@@ -1529,6 +1529,13 @@ h2.section-title-normal a {
   padding: 0 !important;
 }
 
+.section-hp-assurance {
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+  border-left: 0;
+  border-right: 0;
+}
+
 .section-hp-assurance .col-inner {
     padding: 20px 0 28px 0;
 }
@@ -1696,14 +1703,26 @@ ul.menu > li + li,
 
 /*** MOBILE FIX ***/
 @media screen and (max-width: 549px) {
-  /* HP */
-.section-hp-assurance .flickity-page-dots {
-  bottom: 0px;
-}
+    /* HP */
+  .section-hp-assurance {
+    padding: 0px 0 20px 0
+  }
 
-.section-hp-assurance .section {
-  padding-top: 12px !important;
-}
+  .section-hp-assurance .flickity-page-dots {
+    bottom: 0px;
+  }
+
+  .section-hp-assurance .section {
+    padding-top: 8px !important;
+  }
+
+  .section-hp-assurance .icon-box-text h3 {
+    font-size: 1.1em;
+  }
+
+  .section-hp-assurance .icon-box-text p {
+    font-size: 1.05em;
+  }
 
 
   .row-small > .flickity-viewport > .flickity-slider > .col,
