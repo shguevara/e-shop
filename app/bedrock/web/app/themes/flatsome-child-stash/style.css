@@ -1523,8 +1523,29 @@ h2.section-title-normal a {
 .shop-grid a.button.white:hover {
   background-color: #000 !important;
   color: #fff !important;
+}
+
+.section-hp-hero {
+  padding: 0 !important;
+}
+
+.section-hp-assurance .icon-box-text {
+  color: #979797;
+  font-size: 0.9rem;
+  line-height: 0.9;
+}
+
+.section-hp-assurance .icon-box-text h3 {
 
 }
+
+
+.section-hp-assurance .icon-box-text p {
+font-size: 0.9rem;
+line-height: 0.9;
+color: #0e70be;
+}
+
 
 
 /* FOOTER */
