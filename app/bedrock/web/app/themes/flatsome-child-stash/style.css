@@ -1709,7 +1709,7 @@ ul.menu > li + li,
   }
 
   .section-hp-assurance .flickity-page-dots {
-    bottom: 0px;
+    bottom: -5px;
   }
 
   .section-hp-assurance .section {
