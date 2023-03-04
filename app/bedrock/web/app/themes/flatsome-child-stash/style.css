@@ -1705,15 +1705,15 @@ ul.menu > li + li,
 @media screen and (max-width: 549px) {
     /* HP */
   .section-hp-assurance {
-    padding: 0px 0 20px 0
+    padding: 0px 0 25px 0
   }
 
   .section-hp-assurance .flickity-page-dots {
-    bottom: 0px;
+    bottom: 5px;
   }
 
   .section-hp-assurance .section {
-    padding-top: 8px !important;
+    padding-top: 13px !important;
   }
 
   .section-hp-assurance .icon-box-text h3 {
