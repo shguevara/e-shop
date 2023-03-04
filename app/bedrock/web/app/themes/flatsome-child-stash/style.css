@@ -1529,21 +1529,34 @@ h2.section-title-normal a {
   padding: 0 !important;
 }
 
+.section-hp-assurance .col-inner {
+    padding: 20px 0 28px 0;
+}
+
+.section-hp-assurance  {
+  background-color: #f3f3f3;
+  padding: 11px 0 20px 0;
+}
 .section-hp-assurance .icon-box-text {
-  color: #979797;
+  color: #878787;
   font-size: 0.9rem;
   line-height: 0.9;
 }
 
 .section-hp-assurance .icon-box-text h3 {
-
+  color: inherit;
 }
 
 
 .section-hp-assurance .icon-box-text p {
-font-size: 0.9rem;
+font-size: 0.85rem;
 line-height: 0.9;
 color: #0e70be;
+}
+
+.section-hp-assurance .icon img {
+  filter: invert(56%) sepia(12%) saturate(9%) hue-rotate(18deg) brightness(93%) contrast(83%);
+  width: 46px;
 }
 
 
