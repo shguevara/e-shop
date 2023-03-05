@@ -444,8 +444,8 @@ input[type='button'].button,
 }
 
 /******************************/
-/* HEADER CAT */
-.banner.shop h1 {
+/* HEADER CATEGORY */
+/* .banner.shop h1 {
   font-size: 2.4em;
   font-weight: 500;
 }
@@ -463,6 +463,12 @@ input[type='button'].button,
 .banner.shop h1,
 .banner.shop h5 {
   margin: 0;
+} */
+
+.section-bannner-gen {
+  width: 1250px;
+  height: 130px;
+  margin:0 auto;
 }
 
 /******************************/
