@@ -471,6 +471,14 @@ input[type='button'].button,
   margin:0 auto;
 }
 
+.section-banner-gen p {
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px #00000021;
+}
+
+
+
 /******************************/
 /* BREADCRUMB */
 .page-title-inner {
