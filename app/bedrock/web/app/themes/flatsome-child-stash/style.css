@@ -268,7 +268,8 @@ input[type='button'].button,
 }
 
 .header-bottom .nav-line-bottom > li.active > a:before,
-.header-bottom .nav-line-bottom > li.current-product-ancestor > a:before {
+.header-bottom .nav-line-bottom > li.current-product-ancestor > a:before,
+.header-bottom .nav-line-bottom > li.current-product_cat-ancestor > a:before  {
   background-color: #42cca6 !important;
   opacity: 1;
 }
