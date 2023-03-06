@@ -1539,6 +1539,9 @@ h2.section-title-normal .section-title-main {
 
 h2.section-title-normal a {
   font-size: 0.6em;
+  font-weight: 300;
+  color: #0e70be;
+
 }
 
 .shop-grid a.button.white {
@@ -1579,6 +1582,7 @@ h2.section-title-normal a {
 
 .section-hp-assurance .icon-box-text h3 {
   color: inherit;
+  font-size: 1.15em;
 }
 
 
@@ -1590,7 +1594,7 @@ color: #0e70be;
 
 .section-hp-assurance .icon img {
   filter: invert(56%) sepia(12%) saturate(9%) hue-rotate(18deg) brightness(93%) contrast(83%);
-  width: 46px;
+  width: 39px;
 }
 
 
